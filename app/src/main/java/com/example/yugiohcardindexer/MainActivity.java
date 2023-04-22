@@ -25,6 +25,20 @@ import com.example.yugiohcardindexer.db.CardListDAO;
 
 import java.util.List;
 
+/*
+This app is working for the most part, but there are some issues
+with it. For one, I wasn't able to get the delete account ability
+working. I just was having a hard time accessing the same database
+in a way that didn't mess the emulator up. I feel as though a lot of
+my issues stem from the fact that my laptop isn't powerful enough to
+handle the emulation side of the software. I'm going to continue
+developing this app after CST 338 because this was an idea I had prior
+to starting the class. I want to integrate a webscraper into it with
+the ability to generate all of the card info from just the ID number
+that is at the bottom of all yugioh cards. I eventually want to market
+it as a way for people to trade and sell their card collections without
+having to physically take their cards somewhere.
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final String USER_ID_KEY = "com.example.yugiohcardindexer.userIdKey";
