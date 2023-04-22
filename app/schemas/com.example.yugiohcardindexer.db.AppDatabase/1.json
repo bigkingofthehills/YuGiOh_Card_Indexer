@@ -1,0 +1,58 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "001978dab0a0f7fb5734abd7cacb8aa9",
+    "entities": [
+      {
+        "tableName": "CARDLIST_TABLE",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`mListId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `mCardName` TEXT, `mCardAttack` INTEGER NOT NULL, `mCardDefense` INTEGER NOT NULL, `mDate` INTEGER)",
+        "fields": [
+          {
+            "fieldPath": "mListId",
+            "columnName": "mListId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mCardName",
+            "columnName": "mCardName",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "mCardAttack",
+            "columnName": "mCardAttack",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mCardDefense",
+            "columnName": "mCardDefense",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mDate",
+            "columnName": "mDate",
+            "affinity": "INTEGER",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "mListId"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '001978dab0a0f7fb5734abd7cacb8aa9')"
+    ]
+  }
+}

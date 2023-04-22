@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">YuGiOh Card Indexer</string>
+    <string name="mainCardNameHint">Enter Card Name</string>
+    <string name="mainCardAttackHint">Enter Card Attack</string>
+    <string name="mainCardDefenseHint">Enter Card Defense</string>
+    <string name="mainCardId">Enter Card ID</string>
+    <string name="mainSubmitButton">Submit</string>
+    <string name="noLogsMessage">No records, time to grab some cards!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="yes">yes</string>
+    <string name="admin_stuff">Admin Stuff</string>
+    <string name="create_user">Create User</string>
+    <string name="delete_user">Delete User</string>
+    <string name="go_back">Go back</string>
+    <string name="create_account">Create Account</string>
+</resources>
