@@ -1,7 +1,6 @@
 package com.example.yugiohcardindexer;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.room.Room;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,7 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.yugiohcardindexer.db.AppDatabase;
 import com.example.yugiohcardindexer.db.CardListDAO;
 
 public class CreateAccount extends AppCompatActivity {
