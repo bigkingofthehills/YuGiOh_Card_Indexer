@@ -53,6 +53,8 @@ public class CreateAccount extends AppCompatActivity {
                     else{
                         User altUser = new User(mUsernameString, mPasswordString);
                         mCardListDAO.insert(altUser);
+                        // I'm not entirely sure why this isn't working? But it crashes my emulator.
+                        // The problem might be in my computer not being strong enough?
                         Toast.makeText(CreateAccount.this, "Account created!", Toast.LENGTH_SHORT).show();
                     }
                 }
