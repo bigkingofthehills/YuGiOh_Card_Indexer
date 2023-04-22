@@ -16,5 +16,8 @@ public abstract class AppDatabase extends RoomDatabase {
     public static final String CARDLIST_TABLE = "CARDLIST_TABLE";
     public static final String USER_TABLE = "USER_TABLE";
 
+    // I want to establish this as the table that tracks admins, but I'm unsure of how to.
+    public static final String ADMIN_TABLE = "ADMIN_TABLE";
+
     public abstract CardListDAO getCardListDAO();
 }
