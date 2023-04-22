@@ -12,6 +12,11 @@ import android.widget.Toast;
 
 import com.example.yugiohcardindexer.db.CardListDAO;
 
+/*
+I'm not really sure why this activity doesn't work the way
+it is supposed to. If I could get some advice as to how to
+make this work in the feedback section, that would be great!
+ */
 public class CreateAccount extends AppCompatActivity {
 
     private Button mBackButton;
